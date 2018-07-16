@@ -40,7 +40,7 @@ Object.keys(users).forEach(function (key) {
     if (user) {
         console.log('name: ', user.name);
         console.log('last name: ', users.lastName);
-        if (user.otherData) {
+        if ( user.otherData) {
             console.log('role: ', user.otherData.role);
         }
     }
